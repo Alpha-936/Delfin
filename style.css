@@ -4,7 +4,7 @@ box-sizing: border-box;
 
 body{
     color: rgb(0, 0, 0);
-    background: rgb(207, 127, 160);
+    background: rgb(254, 169, 205);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     line-height: 1.5;
@@ -32,17 +32,17 @@ body{
 }
 
 .nav-link:hover{
-    background: rgb(230, 49, 190);
+    background: rgb(27, 132, 39);
 }
 
 .nav-link:focus{
-    outline: 2px solid rgb(202, 0, 233);
+    outline: 2px solid rgb(106, 52, 69);
     outline-offset: 2px;
 }
 
 .site-header{
     padding: 16px 0;
-    border-bottom: 1px solid rgb(246, 138, 239);
+    border-bottom: 1px solid rgb(241, 19, 227);
 }
 
 .site-nav{
@@ -55,7 +55,7 @@ body{
 
 .site-footer{
     padding: 16px 0;
-    border-top: 1px solid rgb(239, 233, 236);
+    border-top: 1px solid rgb(249, 208, 228);
 }
 
 .section{
@@ -82,7 +82,7 @@ p{
 }
 
 .card{
-    border: 1px solid #f0eaed;
+    border: 1px solid #fbf8fa;
     border-radius: 12px;
     padding: 12px;
 }
@@ -109,7 +109,7 @@ p{
     border: 1px solid rgb(250, 239, 239);
     border-radius: 12px;
     padding: 12px;
-    background:rgba(196, 107, 231, 0.521);
+    background:rgba(57, 203, 244, 0.521);
     margin-top: 20px;
 }
 
