@@ -96,6 +96,7 @@ p{
 .responsive-img2 {
     max-width: 50%;
     height: auto;
+    gap:
     display: block; 
 }
 
