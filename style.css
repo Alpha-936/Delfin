@@ -144,3 +144,7 @@ p{
       rotate(var(--rotation));
   }
 }
+.bilder {
+    display: flex;
+    gap: 20px;
+}
