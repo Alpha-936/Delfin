@@ -123,20 +123,24 @@ p{
         align-items: start;
     }
 }
-#secret-message {
-  display: none !important;
-}
-
-#secret-message.show {
-  display: block !important;
+.butterfly-explosion {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: linear-gradient(135deg, #ffc5e5, #d9c5ff);
-  color: white;
-  padding: 25px;
-  border-radius: 20px;
+  pointer-events: none;
   z-index: 999999;
   font-size: 24px;
+  animation: butterfly-burst 1.4s ease-out forwards;
+}
+
+@keyframes butterfly-burst {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) scale(0.3) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform:
+      translate(var(--x), var(--y))
+      scale(1.5)
+      rotate(var(--rotation));
+  }
 }
